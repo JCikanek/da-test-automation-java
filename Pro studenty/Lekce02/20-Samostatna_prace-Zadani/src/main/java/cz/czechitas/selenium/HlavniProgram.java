@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class HlavniProgram {
@@ -16,7 +17,7 @@ public class HlavniProgram {
 
         WebDriver prohlizec;
         prohlizec = new FirefoxDriver();
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/");
 
         // TODO: Sem vepiste svuj program
 

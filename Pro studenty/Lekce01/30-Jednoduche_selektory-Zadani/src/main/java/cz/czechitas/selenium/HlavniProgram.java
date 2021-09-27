@@ -17,7 +17,7 @@ public class HlavniProgram {
         prohlizec = new FirefoxDriver();
         prohlizec.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/");
 
         // TODO: Sem vepiste svuj program
 

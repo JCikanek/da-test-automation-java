@@ -17,7 +17,7 @@ public class HlavniProgram {
 
         WebDriver prohlizec;
         prohlizec = new FirefoxDriver();
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/selectors.html");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/selectors.html");
 
         List<WebElement> seznamOdstavcu = prohlizec.findElements(By.xpath("//*[@id='pohadka']/p"));
         for (int i=0; i<seznamOdstavcu.size(); i++) {

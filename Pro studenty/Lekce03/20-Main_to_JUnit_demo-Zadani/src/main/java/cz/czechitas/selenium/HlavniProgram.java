@@ -19,7 +19,7 @@ public class HlavniProgram {
         prohlizec = new FirefoxDriver();
         prohlizec.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/");
         WebElement zalozkaTabulka = prohlizec.findElement(By.id("table"));
         zalozkaTabulka.click();
 

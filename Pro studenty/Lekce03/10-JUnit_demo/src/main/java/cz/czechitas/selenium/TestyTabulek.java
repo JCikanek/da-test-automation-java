@@ -24,8 +24,8 @@ public class TestyTabulek {
 
     @Test
     public void zviratVTabulceMusiByt7() {
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/");
-        WebElement zalozkaTabulka = prohlizec.findElement(By.linkText("Table"));
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/");
+        WebElement zalozkaTabulka = prohlizec.findElement(By.id("table"));
         zalozkaTabulka.click();
 
         List<WebElement> seznamZvirat = prohlizec.findElements(By.xpath("//table/tbody/tr/td[1]"));
@@ -34,8 +34,8 @@ public class TestyTabulek {
 
     @Test
     public void prvniZvireVTabulceMusiBytKocka() {
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/");
-        WebElement zalozkaTabulka = prohlizec.findElement(By.linkText("Table"));
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/");
+        WebElement zalozkaTabulka = prohlizec.findElement(By.id("table"));
         zalozkaTabulka.click();
 
         List<WebElement> seznamZvirat = prohlizec.findElements(By.xpath("//table/tbody/tr/td[1]"));

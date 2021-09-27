@@ -9,6 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class TestyAutomatizace4 {
 
     WebDriver prohlizec;
@@ -24,13 +26,13 @@ public class TestyAutomatizace4 {
 
     @Test
     public void poStiskuTlacikaLoginMusiBytZobrazenaStrankaLoggedIn() {
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/login.html");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/login.html");
 
         WebElement polickoUsername = prohlizec.findElement(By.id("login-username"));
         WebElement polickoPassword = prohlizec.findElement(By.id("login-password"));
         WebElement tlacitkoPrihlasit = prohlizec.findElement(By.id("login-submit"));
         polickoUsername.sendKeys("czechitas");
-        polickoPassword.sendKeys("D4Ostr4v42020");
+        polickoPassword.sendKeys("budoucnost");
         tlacitkoPrihlasit.click();
 
         WebElement hlaseniLogged = prohlizec.findElement(By.xpath("//h1[text() = 'LOGGED!']"));

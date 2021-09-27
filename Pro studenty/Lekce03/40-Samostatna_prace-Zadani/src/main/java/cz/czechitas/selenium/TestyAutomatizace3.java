@@ -4,8 +4,10 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class TestyAutomatizace3 {
@@ -23,7 +25,7 @@ public class TestyAutomatizace3 {
 
     @Test
     public void po5nasobnemStiskuTlacikaLajkMusiBytPocetLajku5() {
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/selectors.html");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/selectors.html");
 
         // TODO: Sem vepiste svuj program
     }
@@ -31,7 +33,7 @@ public class TestyAutomatizace3 {
     /*
     @Test
     public void poStiskuPridejKockuMusiBytSpravnyPocetObrazkuKocek() {
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/adding.html");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/adding.html");
 
         // TODO: Sem vepiste svuj program
     }
@@ -40,7 +42,7 @@ public class TestyAutomatizace3 {
     /*
     @Test
     public void poStiskuPridejAOdeberKockuMusiBytSpravnyPocetObrazkuKocek() {
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/adding.html");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/adding.html");
 
         // TODO: Sem vepiste svuj program
     }
@@ -50,7 +52,7 @@ public class TestyAutomatizace3 {
     // Bonusovy ukol
     @Test
     public void poStiskuPridejAOdeberKockuVicekratNezBylaPridanaMusiBytPocetKocek0() {
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/adding.html");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/adding.html");
 
         // TODO: Sem vepiste svuj program
     }

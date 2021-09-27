@@ -24,7 +24,7 @@ public class TestyAutomatizace3 {
 
     @Test
     public void po5nasobnemStiskuTlacikaLajkMusiBytPocetLajku5() {
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/selectors.html");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/selectors.html");
 
         int zadanyPocetLajku = 5;
         WebElement tlacitkoLajk = prohlizec.findElement(By.id("like-button"));
@@ -39,7 +39,7 @@ public class TestyAutomatizace3 {
 
     @Test
     public void poStiskuPridejKockuMusiBytSpravnyPocetObrazkuKocek() {
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/adding.html");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/adding.html");
         for (int i = 1; i <= 10; i++) {
             WebElement tlacitkoPridejKocku = prohlizec.findElement(By.id("addItem"));
             tlacitkoPridejKocku.click();
@@ -52,7 +52,7 @@ public class TestyAutomatizace3 {
 
     @Test
     public void poStiskuPridejAOdeberKockuMusiBytSpravnyPocetObrazkuKocek() {
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/adding.html");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/adding.html");
         WebElement tlacitkoPridejKocku = prohlizec.findElement(By.id("addItem"));
         for (int i = 0; i < 10; i++) {
             tlacitkoPridejKocku.click();
@@ -67,7 +67,7 @@ public class TestyAutomatizace3 {
 
     @Test
     public void poStiskuPridejAOdeberKockuVicekratNezBylaPridanaMusiBytPocetKocek0() {
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/adding.html");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/adding.html");
         WebElement tlacitkoPridejKocku = prohlizec.findElement(By.id("addItem"));
         for (int i = 0; i < 10; i++) {
             tlacitkoPridejKocku.click();

@@ -15,11 +15,11 @@ public class HlavniProgram {
 
         WebDriver prohlizec = new FirefoxDriver();
         prohlizec.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/");
 
         WebElement zalozkaButtons = prohlizec.findElement(By.id("selectorsButtons"));
 //      WebElement zalozkaButtons = prohlizec.findElement(By.xpath("//li[@id='selectorsButtons']"));
-//      WebElement zalozkaButtons = prohlizec.findElement(By.xpath("//*[text() = 'Buttons']"));
+//      WebElement zalozkaButtons = prohlizec.findElement(By.xpath("//*[text() = 'Tlačítka']"));
 //      WebElement zalozkaButtons = prohlizec.findElement(By.xpath("//ul/li"));
         zalozkaButtons.click();
 

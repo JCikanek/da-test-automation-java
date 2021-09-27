@@ -17,9 +17,9 @@ public class HlavniProgram {
 
         WebDriver prohlizec;
         prohlizec = new FirefoxDriver();
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/");
 
-        WebElement zalozkaTabulka = prohlizec.findElement(By.linkText("Table"));
+        WebElement zalozkaTabulka = prohlizec.findElement(By.id("table"));
         zalozkaTabulka.click();
 
         List<WebElement> seznamZvirat = prohlizec.findElements(By.xpath("//table/tbody/tr/td[1]"));
@@ -40,7 +40,7 @@ public class HlavniProgram {
 
         Thread.sleep(5_000);
 
-        WebElement zalozkaItems = prohlizec.findElement(By.xpath("//li[@class='nav-item']/a[text()='Items']"));
+        WebElement zalozkaItems = prohlizec.findElement(By.xpath("//li[@class='nav-item' and @id='adding']/a"));
         zalozkaItems.click();
 
         WebElement tlacitkoPridejKocku = prohlizec.findElement(By.id("addItem"));

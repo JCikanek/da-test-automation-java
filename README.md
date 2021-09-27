@@ -59,14 +59,14 @@ Průběh každé lekce je nastaven zhruba takto (obsahuje 5 projektů)
     ale jen staticky ukazovat.
     Studenti by se měli jen dívat, aby pochopili myšlenku.
     
-2.  Výchozí projekt (`***-Zadani`), do kterého lektor demonstrativně 
-    dopíše řešení. Studenti ho mohou následovat
+2.  Výchozí projekt (`***-Zadani`), do kterého lektor může demonstrativně 
+    dopsat řešení. Studenti ho mohou následovat
     nebo se mohou pouze dívat.
     Pokud jde o něco složitějšího, je možné to dokonce projít dvakrát.
     Tedy, poprvé nechat studenty jen koukat, pak řešení vzít zpět,
     a podruhé studenty pobídnout, ať si zkoušejí kroky podle lektora.
     
-3.  Řešení předchozího projektu. Primárně pro lektora, aby věděl, kam dojít.
+3.  Řešení předchozího projektu (`***-Reseni`). Primárně pro lektora, aby věděl, kam dojít.
 
 4.  Výchozí projekt pro samostatnou práci (v breakout rooms nebo s kouči).
 
@@ -77,15 +77,17 @@ Průběh každé lekce je nastaven zhruba takto (obsahuje 5 projektů)
 Externí webové aplikace
 -----------------------
 
-Lekce 1 – 4 používá jednoduchý web nasazený na *Repl.it*.
-Autorem je Vojtěch Červený z Ostravy a já (Kamil Ševeček) jsem si web přizpůsobil.
-Jeho zdrojový text je součástí repository.<br/>
-<https://automation.shinekamil.repl.co/>
+Lekce 1 – 4 používá jednoduchý web *Automation Playground* nasazený na *Repl.it*.
+Autorem je Vojtěch Červený z Ostravy a já (Kamil Ševeček) jsem web mírně přizpůsobil.
+Jeho zdrojový text je zde:<br/>
+<https://github.com/czechitas/da-test-automation-playground/><br/>
+Nasazený je zde:<br/>
+<https://automation-playground.czechitas.repl.co/>
 
 Lekce 5 a domácí úkol pracují s rozsáhlejší aplikací *Přihlašování na tábory*.
 Aplikace je napsána v PHP a autorem je Pavel Kutáč z Ostravy.
 Zdroj je k dispozici na:<br/>
-<https://github.com/czechitas/da-test-webapps>.
+<https://github.com/czechitas/da-test-webapp>.
 
 
 
@@ -111,19 +113,22 @@ Jak s materiály pracovat
 2.  Upravte si v projektech cokoliv uznáte za vhodné a nahrávejte studentkám 
     pouze svoje upravené projekty.
     
-    Nikdy ne ty z kanonické repository na github.com/czechitas,
+    Nikdy ne ty z kanonické repository na `github.com/czechitas`,
     protože ty nemůžete operativně měnit.
 
 3.  Podobně si udělejte fork *Automation Repl.itu* 
-    a do projektů vepište adresu na váš fork místo `https://automation.shinekamil.repl.co/`.
+    a do projektů vepište adresu na váš fork místo `https://github.com/czechitas/da-test-automation-playground/`.
 
 4.  Nakonec si udělejte fork webové appky *Přihlašování na tábory* 
-    <https://github.com/czechitas/da-test-webapp>,
+    `https://github.com/czechitas/da-test-webapp`,
     kterou je potom třeba nasadit, například zdarma na Heroku.
 
     Pro první pokusy: Moje nasazení je na <https://cz-test-dva.herokuapp.com/>.
+    
     Postup nasazování je na [wiki v Githubu](https://github.com/czechitas/da-test-webapp/wiki) 
     a úvodní info je v [README.md](https://github.com/czechitas/da-test-webapp#user-content-instalace).
+    Školení o nasazování appky: <https://www.youtube.com/watch?v=1jtc2uWhCkE>.
+
     Je to trochu pracné, ale jde to zvládnout.
     Pro nasazení je nutné mít ještě cloudovou databázi MariaDB/MySQL
     (lze také zdarma na Heroku) a souborové úložiště (na Azure).

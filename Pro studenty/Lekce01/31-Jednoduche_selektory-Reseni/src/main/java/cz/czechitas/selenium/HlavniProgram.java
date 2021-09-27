@@ -17,7 +17,7 @@ public class HlavniProgram {
         prohlizec = new FirefoxDriver();
         prohlizec.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/");
 
         WebElement zalozkaButtons = prohlizec.findElement(By.id("selectorsButtons"));
         zalozkaButtons.click();
@@ -29,10 +29,8 @@ public class HlavniProgram {
         WebElement classNameButton = prohlizec.findElement(By.className("click-click-click"));
         classNameButton.click();
         WebElement theButton = prohlizec.findElement(By.linkText("This is THE button"));
-//      WebElement theButton = prohlizec.findElement(By.xpath("//button[text() = 'This is THE button']"));
         theButton.click();
         WebElement partialButton = prohlizec.findElement(By.partialLinkText("Partial"));
-//      WebElement partialButton = prohlizec.findElement(By.xpath("//button[contains(text(), 'Partial')]"));
         partialButton.click();
         WebElement dataButton = prohlizec.findElement(By.xpath("//button[@data-qa='customAttribute-button']"));
         dataButton.click();
@@ -49,7 +47,7 @@ public class HlavniProgram {
         WebElement polickoUsername = prohlizec.findElement(By.id("login-username"));
         polickoUsername.sendKeys("czechitas");
         WebElement polickoPassword = prohlizec.findElement(By.id("login-password"));
-        polickoPassword.sendKeys("D4Ostr4v42020");
+        polickoPassword.sendKeys("budoucnost");
         WebElement loginButton = prohlizec.findElement(By.id("login-submit"));
         loginButton.click();
 

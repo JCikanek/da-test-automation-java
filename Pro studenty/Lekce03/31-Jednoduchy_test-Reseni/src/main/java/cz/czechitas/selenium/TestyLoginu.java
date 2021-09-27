@@ -24,11 +24,11 @@ public class TestyLoginu {
 
     @Test
     public void poPrihlaseniMusiBytObrazekSovy() {
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/login.html");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/login.html");
         WebElement polickoJmeno = prohlizec.findElement(By.id("login-username"));
         polickoJmeno.sendKeys("czechitas");
         WebElement polickoHeslo = prohlizec.findElement(By.id("login-password"));
-        polickoHeslo.sendKeys("D4Ostr4v42020");
+        polickoHeslo.sendKeys("budoucnost");
         WebElement tlacitkoOdeslat = prohlizec.findElement(By.id("login-submit"));
         tlacitkoOdeslat.click();
 

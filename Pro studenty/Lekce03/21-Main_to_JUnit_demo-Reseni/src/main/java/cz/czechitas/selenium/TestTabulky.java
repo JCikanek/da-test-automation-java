@@ -28,7 +28,7 @@ public class TestTabulky {
 
     @Test
     public void tabulkaZviratMusiMit7Radku() {
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/table.html");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/table.html");
 
         List<WebElement> seznamZvirat = prohlizec.findElements(By.xpath("//table[contains(@class, 'qa-animals')]//td[1]"));
         Assertions.assertEquals(7, seznamZvirat.size());
@@ -36,7 +36,7 @@ public class TestTabulky {
 
     @Test
     public void prvniZvireMusiBytKocka() {
-        prohlizec.navigate().to("https://automation.shinekamil.repl.co/table.html");
+        prohlizec.navigate().to("https://automation-playground.czechitas.repl.co/table.html");
 
         List<WebElement> seznamZvirat = prohlizec.findElements(By.xpath("//table[contains(@class, 'qa-animals')]//td[1]"));
 
