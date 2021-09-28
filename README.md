@@ -74,6 +74,18 @@ Průběh každé lekce je nastaven zhruba takto (obsahuje 5 projektů)
 
 
 
+Instalace
+---------
+
+Instalační instrukce jsou zde:<br/>
+<https://javainstall.czechitas.cz/selenium/>
+
+Poznámka: Předpokládá se úspěšná instalace z Programování (předchozí části Digitální akademie: Testování).
+Tedy že studenti mají funkční OpenJDK, IntelliJ IDEA a Maven podle instalačních instrukcí:<br/>
+<https://javainstall.czechitas.cz/community/>
+
+
+
 Externí webové aplikace
 -----------------------
 
@@ -108,7 +120,7 @@ Pro inspiraci je možné se podívat, jak jsem lekce vedl já (Kamil Ševeček):
 Jak s materiály pracovat
 ------------------------
 
-1.  Udělejte si fork materiálů na Githubu a pracujte se svým forkem.
+1.  Udělejte si fork materiálů z Githubu a pracujte se svým forkem.
     
 2.  Upravte si v projektech cokoliv uznáte za vhodné a nahrávejte studentkám 
     pouze svoje upravené projekty.
@@ -116,8 +128,8 @@ Jak s materiály pracovat
     Nikdy ne ty z kanonické repository na `github.com/czechitas`,
     protože ty nemůžete operativně měnit.
 
-3.  Podobně si udělejte fork *Automation Repl.itu* 
-    a do projektů vepište adresu na váš fork místo `https://github.com/czechitas/da-test-automation-playground/`.
+3.  Podobně si udělejte fork *Automation Playground* na *Repl.itu*
+    a do projektů vepište adresu na váš fork místo `https://automation-playground.czechitas.repl.co/`.
 
 4.  Nakonec si udělejte fork webové appky *Přihlašování na tábory* 
     `https://github.com/czechitas/da-test-webapp`,
