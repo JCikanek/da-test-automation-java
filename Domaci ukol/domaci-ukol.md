@@ -136,8 +136,8 @@ Postupujte takto:
 
 #### Termín odevzdání
 
-Na projekt je jen týden, abychom řešení mohli prodiskutovat v poslední
-lekci automatizovaného testování. Termín je tedy **čtvrtek 23:59**.
+**Na projekt jsou dva týdny**.Pod9vejte se na něj dopředu abychom řešení mohli prodiskutovat v poslední
+lekci automatizovaného testování **čtvrtek**.
 Vím, že je to velmi krátký čas, ale Digitální akademie je prostě náročná. 🙃
 
 #### Postup odevzdání
@@ -160,7 +160,7 @@ založit prázdnou repository na Githubu,
 nastavit lokální repository tak, aby věděla o vzdálené repository na Githubu
 (IntelliJ IDEA -> Menu -> `Git` -> `Manage remotes`)
 a nakonec provést `git push`.
-Podobně jste to dělali v lekci Gitu (zhruba v čase 3:20:00).
+Podobně jste to dělali v lekci Gitu.
 
 Každou změnu v projektu je potom vždy potřeba nástrojem Git na vašem počítači *commitnout*
 a *pushnout* opět na Github.
